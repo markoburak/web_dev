@@ -1,0 +1,17 @@
+{% extends "store/wrapper.html" %}
+
+{% block content %}
+
+{% include "store/includes/text.html" %}
+
+{% for val in values %}
+<p>{{val}}</p>
+{% endfor %}
+<p>{{object_list.0.name}}</p>
+
+{% for obj in object_list %}
+<p>{{obj.name}}</p>
+<p>{{obj.date}}</p>
+<p>{{obj.price}}</p>
+{% endfor %}
+{% endblock %}

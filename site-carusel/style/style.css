@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #213036;
+}
+
+.carousel-container {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img_fix {
+  width: 60vw;
+  height: 800px;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
