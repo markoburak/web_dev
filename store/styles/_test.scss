@@ -1,0 +1,29 @@
+#test{
+    background-image: url('../img/nike.jpg');
+    min-height: 900px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 70px;    
+  }
+
+  .dark_mode{
+      filter: invert(1);
+  }
+
+  .dark_mode2{
+    filter: invert(1) hue-rotate(180deg);
+  }

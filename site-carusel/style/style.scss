@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #213036;
+}
+
+
+.carousel-container{
+    position: relative;
+    margin: auto;
+    width:60%;
+    overflow: hidden;
+
+}
+
+.carousel-slide{
+    display: flex;
+
+}
+
+.img_fix{
+    
+    width: 60vw;
+    height: 800px;
+}
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 40px;
+    color: white;
+
+    // opacity: 0.5;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 40px;
+    color: white;
+    // opacity: 0.5;
+    cursor: pointer;
+}
+// .nope{
+//     color: wheat;
+// }

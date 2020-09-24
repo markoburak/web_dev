@@ -1,0 +1,11 @@
+{% extends "store/wrapper.html" %}
+
+{% block content %}
+
+{% include "store/includes/text.html" %}
+
+{% for val in values %}
+<p>{{val}}</p>
+{% endfor %}
+
+{% endblock %}
