@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Editor</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+<div class="file-upload-section" onclick="selectImage()">
+    <input id="foto-file" type="file">
+    Select Image
+</div>
+
+<div class="img-container">
+    <img id="foto-image" class="image">
+</div>
+
+<table class="buttons-section">
+    <tr>
+        <td><button class="operation-btn" onclick="makeGray()">Gray</button></td>
+        <td><button class="operation-btn" onclick="makeBrighter()">Brighter</button></td>
+        <td><button class="operation-btn" onclick="makeDarker()">Darker</button></td>
+    </tr>
+    <tr>
+        <td><button class="operation-btn" onclick="makeBlur()">Blur</button></td>
+        <td><button class="operation-btn" onclick="makeEmboss()">Emboss</button></td>
+        <td><button class="operation-btn" onclick="makeSharp()">Sharp</button></td>
+    </tr>
+
+    <tr>
+        <td colspan="3"><button class="operation-btn download-btn" onclick="download()">Download</button></td>
+    </tr>
+
+</table>
+
+
+</body>
+
+<script src="./foto.js-master/foto.js"></script>
+<script src="./manipulation.js"></script>
+</html>
