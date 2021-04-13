@@ -1,0 +1,33 @@
+.full-page {
+    transition: background-color 0.5s ease;
+    background-color: #b6b8d6;
+      
+    height: 100%;
+    // background-color: #bdede0;
+    // height: 100%;
+}
+.full-page:hover {
+    background-color: #bdede0;
+  }
+
+// body {
+    
+.intro{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.title{
+    animation: fade 4s;
+    color: black;
+    font-size: 3rem;
+}
+
+@keyframes fade {
+    0% {opacity: 0; font-size: 5rem;}
+    100% {opacity: 1;}
+ } 

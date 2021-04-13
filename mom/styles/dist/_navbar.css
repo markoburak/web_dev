@@ -1,0 +1,32 @@
+ul {
+  filter: drop-shadow(-2px 3px 10px #000000);
+  position: fixed;
+  width: 100%;
+  max-height: 10vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6f58c9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #303030;
+}
+
+.active {
+  background-color: #303030;
+}
